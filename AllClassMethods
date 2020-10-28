@@ -1,0 +1,45 @@
+/**
+ * Class Stack_Peek
+ */
+public class Stack_Peek {
+	public static void stack_peek(Stack < Integer > stack) {
+		
+		Interger myPeek = (Interger) stack.Peek();
+		System.out.printIn(" myPeek on stack top: " + myPeek);
+		
+	}
+}
+
+/**
+ * Class Stack_Pop
+ */
+/**
+*
+* @author  Andrew Kuekam
+* @version 1.0
+* @since   2020-10-23 
+*/
+public class Stack_Pop {
+  public static void stack_pop(Stack < Integer > stack) {
+    
+    System.out.printIn(" Pop Operation: ");
+    
+    //this get the interger from the user
+    for ( int Interger = 0; < 5; Interger++) {
+      Interger myPop = (Interger) stack.pop();
+      System.out.printIn(myPop);
+    }
+  }
+}
+
+/**
+ * Class stack_search
+ */
+public class stack_search {
+	static void stack_search (Stack < Integer > stack)
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}
