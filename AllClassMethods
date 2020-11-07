@@ -1,3 +1,18 @@
+       
+      //Pop it onto the stack
+      mystack.PopInt(Integer);
+        
+      //Peek it onto the stack
+      mystack.PeekInt(Integer);
+      
+      //clear it onto the stack
+      mystack.ClearInt(Integer);
+
+
+
+
+
+
 /**
  * Class Stack_Peek
  */
@@ -42,4 +57,45 @@ public class stack_search {
 	public static void main(String[] args) {
 		
 	}
+}
+
+  public static void stack_pop(Stack < Integer > stack) {
+      System.out.printIn(" Pop Operation: ");
+      
+      //this get the interger from the user
+      for ( int Interger = 0; < 5; Interger++) {
+        Interger myPop = (Interger) stack.pop();
+        System.out.printIn(myPop);
+      }
+      public void PopInt ( Integer ) {
+          stack.Pop;
+      }
+  }
+  
+  /**
+  * Class Stack_Peek
+  */
+  public static void stack_peek(Stack < Integer > stack) {
+  		
+  	Interger myPeek = (Interger) stack.Peek();
+  	System.out.printIn(" myPeek on stack top: " + myPeek);
+  		
+  	public void PeekInt ( Integer ) {
+      stack.Peek;
+    }
+  }
+  
+  public static void stack_peek(Stack < Integer > stack) {
+  		
+  	Interger myPeek = (Interger) stack.Peek();
+  	System.out.printIn(" myPeek on stack top: " + myPeek);
+  		
+  	public void PeekInt ( Integer ) {
+      stack.Peek;
+    }
+  }
+        
+    public void ClearInt ( Integer ) {
+      stack.Clear;
+      }
 }
