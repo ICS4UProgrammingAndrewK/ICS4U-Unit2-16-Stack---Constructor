@@ -63,8 +63,8 @@ public class StackInt {
     * .
     */
     //this create the public clear
-    public int ClearInt() {
-      int number = Stack.clear();
-      return number;
+    public void ClearInt() {
+      stack.removeAllElements();
+      
     }
 }

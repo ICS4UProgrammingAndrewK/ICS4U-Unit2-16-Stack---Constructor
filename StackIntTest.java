@@ -10,6 +10,9 @@ import java.util.*;
 * @since   2020-10-23 
 */
 public class StackIntTest {
+  /**
+  *. 
+  */
   public static void main(String[] args) {
     
     //creat the stack
@@ -89,17 +92,17 @@ public class StackIntTest {
           }
           
       } else if (number == 4) {
-        //
-        int ClearingInt = mystack.ClearInt();
-        System.out.println(ClearingInt + " is Clear from the stark");
-        System.out.println("=============================");
-        System.out.println(" ");
         
         //
         int size = mystack.Stacksize();
         if (size == 0) {
           //This prints the stack is emty.
           System.out.println(" Error. Stack empty");
+          System.out.println("=============================");
+          System.out.println(" ");
+        } else {
+          mystack.ClearInt(); 
+          System.out.println(" Clear all stark");
           System.out.println("=============================");
           System.out.println(" ");
         }
